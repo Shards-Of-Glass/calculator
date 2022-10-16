@@ -1,7 +1,7 @@
 #calculator{
     display: grid;
 }
-.btn{
+.btn, .btnValue{
     background-color: white;
     height: 50px;
     width: 50px
