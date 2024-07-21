@@ -1,8 +1,22 @@
+body,html{  
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    text-align: center;
+}
 #calculator{
     display: grid;
 }
-.btn, .btnValue{
-    background-color: white;
-    height: 50px;
-    width: 50px
+
+#display{
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: right;
+}
+button{
+    font-size: 20px;
 }
